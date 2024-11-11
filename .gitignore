@@ -16,3 +16,4 @@ env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
 # Ignore Git objects (for starting fresh without large objects in history)
 .git/objects
 
+model.safetensors
