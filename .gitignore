@@ -1,0 +1,18 @@
+# Ignore all dataset files and large files in data directory
+data/
+data/*.csv
+data/*.json
+data/yelp_dataset.tar
+
+# Ignore large model files and checkpoints
+models/sentiment_model/
+scripts/models/checkpoint-*/model.safetensors
+scripts/models/checkpoint-*/optimizer.pt
+
+# Ignore environment-specific files
+env/
+env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
+
+# Ignore Git objects (for starting fresh without large objects in history)
+.git/objects
+

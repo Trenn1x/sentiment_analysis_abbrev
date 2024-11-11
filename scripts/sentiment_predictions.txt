@@ -1,0 +1,3 @@
+Input: The product was fantastic, and I absolutely loved it!
+Predicted Sentiment: Positive
+
